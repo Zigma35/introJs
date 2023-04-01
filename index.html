@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body class="container-principal">
+    <div class="container-card">
+        <div class="container-img">
+        <img src="./assets/img/computador rojo.jpg" width="130" height="130" alt="imagen de un setup gamer color rojo">
+        <p style="color: white; text-align: center;">Computadores</p>
+    </div>
+    <div class="container-input">
+        <input type="number" id="cantidad" placeholder="Cantidad"/>
+        <input type="text" id="color" placeholder="Color"/>
+        <div class="container-precio">
+            <p>Precio: $<span id="precio">2500000</span></p>
+        </div>
+    </div>
+    <div class="container-btn">
+        <button onclick="calcularTotal()">Clacular Total</button>
+    </div>
+    </div>
+    <div>
+        <div class="container-resultado">
+        <div  class="resultado-items">
+                <p>Total:</p>
+                <span id="totalElement"></span>
+            </div>
+            <div  class="resultado-items">
+                <p>Cantidad:</p>
+                <span id="cantidadElement"></span>
+            </div>
+            <div  class="resultado-items">
+                <p>Color:</p>
+                <span id="colorElement" class="result-color"></span>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/js/script.js"></script>
+</html>
